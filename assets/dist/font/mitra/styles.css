@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "mitra-icon";
+  src:url("fonts/mitra-icon.eot");
+  src:url("fonts/mitra-icon.eot?#iefix") format("embedded-opentype"),
+    url("fonts/mitra-icon.woff") format("woff"),
+    url("fonts/mitra-icon.ttf") format("truetype"),
+    url("fonts/mitra-icon.svg#mitra-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "mitra-icon" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ikon-"]:before,
+[class*=" ikon-"]:before {
+  font-family: "mitra-icon" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ikon-wika:before {
+  content: "\61";
+}
+.ikon-its:before {
+  content: "\62";
+}
+.ikon-inti:before {
+  content: "\63";
+}
+.ikon-polban:before {
+  content: "\64";
+}
+.ikon-medion:before {
+  content: "\65";
+}
+.ikon-upi:before {
+  content: "\66";
+}
+.ikon-telkom:before {
+  content: "\67";
+}
+.ikon-len:before {
+  content: "\68";
+}
+.ikon-cca:before {
+  content: "\69";
+}
+.ikon-lg:before {
+  content: "\6a";
+}
+.ikon-polman:before {
+  content: "\6b";
+}
+.ikon-nissan:before {
+  content: "\6c";
+}
+.ikon-tedc:before {
+  content: "\6d";
+}
